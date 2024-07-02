@@ -4671,9 +4671,9 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => v0.GetValue();
 		},
-		() => 10,
+		() => 50,
 		() => 0,
-		() => "https://vk.com/newfpatek",
+		() => "https://t.me/newfpatek",
 		() => ""
 ];
 
