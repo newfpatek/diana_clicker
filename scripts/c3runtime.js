@@ -4542,6 +4542,7 @@ self.C3_JsPropNameTable = [
 	{HTMLЭлемент2: 0},
 	{AJAX: 0},
 	{Браузер: 0},
+	{ТекстурныйШрифт2: 0},
 	{CountClick: 0}
 ];
 
@@ -4559,7 +4560,8 @@ self.InstanceType = {
 	HTMLЭлемент: class extends self.IHTMLElementInstance {},
 	HTMLЭлемент2: class extends self.IHTMLElementInstance {},
 	AJAX: class extends self.IInstance {},
-	Браузер: class extends self.IInstance {}
+	Браузер: class extends self.IInstance {},
+	ТекстурныйШрифт2: class extends self.ISpriteFontInstance {}
 }
 }
 
@@ -4671,9 +4673,9 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => v0.GetValue();
 		},
-		() => 50,
+		() => 273,
 		() => 0,
-		() => "https://t.me/newfpatek",
+		() => "https://t.me/addstickers/Diana_from_KSTA",
 		() => ""
 ];
 
